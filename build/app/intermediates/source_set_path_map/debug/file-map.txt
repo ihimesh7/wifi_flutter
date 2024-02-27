@@ -1,0 +1,12 @@
+com.alternadom.wifiiotexample.app-jetified-annotation-experimental-1.1.0-0 /Users/morning_star/.gradle/caches/transforms-3/125de43c805fa3354a59dfb72df1e926/transformed/jetified-annotation-experimental-1.1.0/res
+com.alternadom.wifiiotexample.app-core-1.6.0-1 /Users/morning_star/.gradle/caches/transforms-3/1465195711f96e120381e8edb4156177/transformed/core-1.6.0/res
+com.alternadom.wifiiotexample.app-jetified-window-java-1.0.0-beta04-2 /Users/morning_star/.gradle/caches/transforms-3/2a52743329c37a635787f3abb369cd9f/transformed/jetified-window-java-1.0.0-beta04/res
+com.alternadom.wifiiotexample.app-jetified-window-1.0.0-beta04-3 /Users/morning_star/.gradle/caches/transforms-3/4aea6da78bf413ae0159cb504c3fd639/transformed/jetified-window-1.0.0-beta04/res
+com.alternadom.wifiiotexample.app-debug-4 /Users/morning_star/Desktop/wifi_flutter/android/app/src/debug/res
+com.alternadom.wifiiotexample.app-main-5 /Users/morning_star/Desktop/wifi_flutter/android/app/src/main/res
+com.alternadom.wifiiotexample.app-pngs-6 /Users/morning_star/Desktop/wifi_flutter/build/app/generated/res/pngs/debug
+com.alternadom.wifiiotexample.app-resValues-7 /Users/morning_star/Desktop/wifi_flutter/build/app/generated/res/resValues/debug
+com.alternadom.wifiiotexample.app-packageDebugResources-8 /Users/morning_star/Desktop/wifi_flutter/build/app/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.alternadom.wifiiotexample.app-packageDebugResources-9 /Users/morning_star/Desktop/wifi_flutter/build/app/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.alternadom.wifiiotexample.app-merged_res-10 /Users/morning_star/Desktop/wifi_flutter/build/app/intermediates/merged_res/debug
+com.alternadom.wifiiotexample.app-packaged_res-11 /Users/morning_star/Desktop/wifi_flutter/build/wifi_iot/intermediates/packaged_res/debug

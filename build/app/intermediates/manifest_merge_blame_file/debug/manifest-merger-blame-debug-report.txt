@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.alternadom.wifiiotexample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10
+11    <!--
+12         The INTERNET permission is required for development. Specifically,
+13         flutter needs it to communicate with the running application
+14         to allow setting breakpoints, to provide hot reload, etc.
+15    -->
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:7:5-67
+16-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:7:22-64
+17    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+17-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:8:5-73
+17-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:8:22-70
+18    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+18-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:9:5-76
+18-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:9:22-73
+19
+20    <uses-feature android:name="android.hardware.wifi" />
+20-->[:wifi_iot] /Users/morning_star/Desktop/wifi_flutter/build/wifi_iot/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-58
+20-->[:wifi_iot] /Users/morning_star/Desktop/wifi_flutter/build/wifi_iot/intermediates/merged_manifest/debug/AndroidManifest.xml:7:19-55
+21
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[:wifi_iot] /Users/morning_star/Desktop/wifi_flutter/build/wifi_iot/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-76
+22-->[:wifi_iot] /Users/morning_star/Desktop/wifi_flutter/build/wifi_iot/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-73
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[:wifi_iot] /Users/morning_star/Desktop/wifi_flutter/build/wifi_iot/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+23-->[:wifi_iot] /Users/morning_star/Desktop/wifi_flutter/build/wifi_iot/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+24    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+24-->[:wifi_iot] /Users/morning_star/Desktop/wifi_flutter/build/wifi_iot/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
+24-->[:wifi_iot] /Users/morning_star/Desktop/wifi_flutter/build/wifi_iot/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
+25    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+25-->[:wifi_iot] /Users/morning_star/Desktop/wifi_flutter/build/wifi_iot/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-79
+25-->[:wifi_iot] /Users/morning_star/Desktop/wifi_flutter/build/wifi_iot/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-76
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->[:wifi_iot] /Users/morning_star/Desktop/wifi_flutter/build/wifi_iot/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-81
+26-->[:wifi_iot] /Users/morning_star/Desktop/wifi_flutter/build/wifi_iot/intermediates/merged_manifest/debug/AndroidManifest.xml:14:22-78
+27
+28    <application
+29        android:name="android.app.Application"
+29-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:12:9-42
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.6.0] /Users/morning_star/.gradle/caches/transforms-3/1465195711f96e120381e8edb4156177/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:13:9-43
+34        android:label="wifi_iot_example" >
+34-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:14:9-41
+35        <activity
+35-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:15:9-38:20
+36            android:name="com.alternadom.wifiiotexample.MainActivity"
+36-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:16:13-41
+37            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+37-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:17:13-137
+38            android:exported="true"
+38-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:22:13-36
+39            android:hardwareAccelerated="true"
+39-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:18:13-47
+40            android:launchMode="singleTop"
+40-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:19:13-43
+41            android:theme="@style/LaunchTheme"
+41-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:20:13-47
+42            android:windowSoftInputMode="adjustResize" >
+42-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:21:13-55
+43
+44            <!-- Specify that the launch screen should continue being displayed -->
+45            <!-- until Flutter renders its first frame. -->
+46            <meta-data
+46-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:25:13-27:66
+47                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+47-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:26:17-81
+48                android:resource="@drawable/launch_background" />
+48-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:27:17-63
+49
+50            <!-- Theme to apply as soon as Flutter begins rendering frames -->
+51            <meta-data
+51-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:30:13-32:57
+52                android:name="io.flutter.embedding.android.NormalTheme"
+52-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:31:17-72
+53                android:resource="@style/NormalTheme" />
+53-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:32:17-54
+54
+55            <intent-filter>
+55-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:34:13-37:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:35:17-69
+56-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:35:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:36:17-77
+58-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:36:27-74
+59            </intent-filter>
+60        </activity>
+61
+62        <meta-data
+62-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:40:9-42:33
+63            android:name="flutterEmbedding"
+63-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:41:13-44
+64            android:value="2" />
+64-->/Users/morning_star/Desktop/wifi_flutter/android/app/src/main/AndroidManifest.xml:42:13-30
+65
+66        <uses-library
+66-->[androidx.window:window:1.0.0-beta04] /Users/morning_star/.gradle/caches/transforms-3/4aea6da78bf413ae0159cb504c3fd639/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+67            android:name="androidx.window.extensions"
+67-->[androidx.window:window:1.0.0-beta04] /Users/morning_star/.gradle/caches/transforms-3/4aea6da78bf413ae0159cb504c3fd639/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0-beta04] /Users/morning_star/.gradle/caches/transforms-3/4aea6da78bf413ae0159cb504c3fd639/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+69        <uses-library
+69-->[androidx.window:window:1.0.0-beta04] /Users/morning_star/.gradle/caches/transforms-3/4aea6da78bf413ae0159cb504c3fd639/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+70            android:name="androidx.window.sidecar"
+70-->[androidx.window:window:1.0.0-beta04] /Users/morning_star/.gradle/caches/transforms-3/4aea6da78bf413ae0159cb504c3fd639/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+71            android:required="false" />
+71-->[androidx.window:window:1.0.0-beta04] /Users/morning_star/.gradle/caches/transforms-3/4aea6da78bf413ae0159cb504c3fd639/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+72    </application>
+73
+74</manifest>
